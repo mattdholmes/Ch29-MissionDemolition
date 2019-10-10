@@ -67,6 +67,7 @@ public class Slingshot : MonoBehaviour {
             GetComponent<Rigidbody>().isKinematic = false;
             GetComponent<Rigidbody>().velocity = -mouseDelta * velocityMult;
             projectile = null;
+            MissionDemolition.ShotFired();
         }
 
     }
