@@ -5,7 +5,6 @@ using UnityEngine;
 
 
 public class FollowCam : MonoBehaviour {
-    static public FollowCam S;
     static public GameObject POI; // The static point of interest
 
     [Header("Set in Inspector")]
